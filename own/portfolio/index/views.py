@@ -6,4 +6,4 @@ def greet(request):
     return res
     
 
-# Create your views here.
+
