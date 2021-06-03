@@ -1,0 +1,14 @@
+li a:hover,
+li a:active {
+    text-decoration: underline;
+}
+
+.t {
+    color: white;
+    margin-left: 20px;
+}
+
+.t1 {
+    position: relative;
+    left: 500px;
+}
