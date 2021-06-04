@@ -17,5 +17,5 @@ def contact(request):
 
 
 
-    res=render(request,'contact1/contacts.html')
+    res=render(request,'contact1/index.html')
     return res
