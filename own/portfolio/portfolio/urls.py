@@ -22,7 +22,7 @@ urlpatterns = [
     path('projects/',include('projects.urls')),
     path('about/',include('about.urls')),
     path('skill/',include('skill.urls')),
-path('contact/',include('contact.urls')),
+path('contacts/',include('contact.urls')),
     path('',v1.greet),
 
 
