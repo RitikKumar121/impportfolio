@@ -32,7 +32,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ritikkportfolio.herokuapp.com']
 
 
 # Application definition
