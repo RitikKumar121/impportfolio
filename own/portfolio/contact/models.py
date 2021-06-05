@@ -4,5 +4,6 @@ class Connector(models.Model):
     last=models.CharField(null=True,max_length=200)
     gmail=models.EmailField(null=True)
     comment=models.TextField(null=True)
-    def _str_(self):
-        return self.naam
+
+    def __str__(self):
+        return f"{self.naam},{self.last}"
