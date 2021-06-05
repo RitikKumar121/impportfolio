@@ -13,7 +13,7 @@ def contact(request):
         con.gmail=gmail
         con.comment=comment
         con.save()
-        return HttpResponse('''Succesfully Submitted Thanks Visit again!!!!''')
+        return HttpResponse('''<h3 style="color:green">Succesfully Submitted Thanks Visitagain!!!!</h3> <a href="https://ritikkportfolio.herokuapp.com/" style="color:green text-decoration:none">Click Here</a>''')
 
 
 
