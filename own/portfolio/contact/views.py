@@ -13,7 +13,9 @@ def contact(request):
         con.gmail=gmail
         con.comment=comment
         con.save()
-        return HttpResponse('''<h3 style="color:green display:inline-block">Succesfully Submitted Thanks Visit again &#128522 &#128522 !!</h3> <span><a href="https://ritikkportfolio.herokuapp.com/" style="color:green style="text-decoration: none;">Click Here</a></span>''')
+        return HttpResponse('''<h3 style="color:green; display:inline;" style="">Succesfully Submitted Thanks Visit again &#128522&#128522 !!</h3> <span><a
+        href="https://ritikkportfolio.herokuapp.com/" style="color:blue; text-decoration:none; font-weight:bold;" >Click
+        Here</a></span>''')
 
 
 
