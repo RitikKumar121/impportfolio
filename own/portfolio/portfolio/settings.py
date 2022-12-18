@@ -33,7 +33,7 @@ DEBUG = False
 
 
 
-ALLOWED_HOSTS = ['ritikkportfolio.herokuapp.com']
+ALLOWED_HOSTS = ['impportfolio-production.up.railway.app']
 
 
 # Application definition
